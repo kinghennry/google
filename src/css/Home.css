@@ -30,6 +30,7 @@
     margin-top: 10%;
     flex: 1;
 }
+
 .home__body > img {
 object-fit: contain;
 height: 100px;

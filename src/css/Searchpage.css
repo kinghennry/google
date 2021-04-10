@@ -57,7 +57,7 @@
 }
 .searchPage__resultCount{
     color:#70757a;
-    font-size: 14px;
+    font-size: 13px;
 }
 .searchPage__results{
    max-width: 850px;
@@ -100,10 +100,12 @@
     }
     .searchPage__result > .searchPage__resultLink{
         font-size: 13px;
+        
     }
     .searchPage__resultTitle h2 {
         font-size: 16px;
         font-weight: 500;
+        padding: 15px 0;
     }
     .searchPage__resultSnippet {
         font-size: 13px;
