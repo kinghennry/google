@@ -1,0 +1,111 @@
+.searchPage__logo{
+ object-fit: contain;
+ width: 150px;
+ margin-right: 50px;
+}
+.searchPage__header{
+    position: sticky;
+    z-index:100;
+    border-bottom: 1px solid lightgray;
+    padding: 30px 20px 0 20px;
+    align-items: flex-start;
+    background-color: white;
+    top: 0;
+    display: flex;
+    width:100%;
+}
+.searchPage__headerBody > .search > .searchPage__input{
+    margin-top: 0;
+    width: 507px;
+    margin: unset;
+    height: unset;
+    max-width: unset;
+    margin: unset;
+}
+.searchPage__headerBody > .search > .search__input > input {
+    font-size: unset;
+}
+.searchPage__headerBody > .search > .search__buttons {
+    margin-top: 0px;
+}
+
+.searchPage__options{
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin: 20px 0;
+}
+.searchPage__option a,
+.searchPage__optionRight a {
+    color: gray;
+    font-size: 13px;
+}
+
+.searchPage__optionsRight {
+    margin-left: 80px;
+}
+.searchPage__option {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+}
+.searchPage__option a {
+    margin-left: 5px;
+}
+.searchPage__result {
+    margin: 40px 0;
+}
+.searchPage__resultCount{
+    color:#70757a;
+    font-size: 14px;
+}
+.searchPage__results{
+   max-width: 850px;
+   margin: 20px auto;
+   width:100%;
+   padding: 10px;
+}
+
+
+.searchPage__resultTitle > h2 {
+    font-weight: 500;
+}
+
+.searchPage__resultsSnippet {
+    margin-top: 20px;
+}
+
+.searchPage__resultImage {
+    object-fit: contain;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+@media (max-width:768px) {
+    .none {
+        display: none;
+    }
+}
+
+@media (max-width:567px) {
+
+    .searchPage__header {
+        flex-direction: column;
+    }
+
+    .searchPage__headerBody>.search>.search__input {
+        width: 307px;
+        padding: 2px 20px;
+        margin: 12px 0;
+    }
+    .searchPage__result > .searchPage__resultLink{
+        font-size: 13px;
+    }
+    .searchPage__resultTitle h2 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .searchPage__resultSnippet {
+        font-size: 13px;
+    }
+}

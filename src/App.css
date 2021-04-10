@@ -1,0 +1,34 @@
+a {
+  text-decoration: none;
+}
+
+input,
+button {
+  outline-width: 0;
+  font-family: inherit;
+}
+
+/* start helper classes */
+.fx {
+  display: flex;
+}
+.App{
+  max-width: 122rem;
+  width: 100%;
+  margin: 0 auto;
+}
+.jc {
+  justify-content: center;
+}
+
+.sb {
+  justify-content: space-between;
+}
+
+.fc {
+  flex-direction: column;
+}
+
+.ai {
+  align-items: center;
+}
